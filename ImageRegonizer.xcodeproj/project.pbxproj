@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFBC50A22D27A92006B83DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC50922D27A92006B83DF /* AppDelegate.swift */; };
+		CEFBC50C22D27A92006B83DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC50B22D27A92006B83DF /* ViewController.swift */; };
+		CEFBC50F22D27A92006B83DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFBC50D22D27A92006B83DF /* Main.storyboard */; };
+		CEFBC51222D27A92006B83DF /* ImageRegonizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC51022D27A92006B83DF /* ImageRegonizer.xcdatamodeld */; };
+		CEFBC51422D27A93006B83DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFBC51322D27A93006B83DF /* Assets.xcassets */; };
+		CEFBC51722D27A93006B83DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFBC51522D27A93006B83DF /* LaunchScreen.storyboard */; };
+		CEFBC52222D27A94006B83DF /* ImageRegonizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC52122D27A94006B83DF /* ImageRegonizerTests.swift */; };
+		CEFBC52D22D27A94006B83DF /* ImageRegonizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC52C22D27A94006B83DF /* ImageRegonizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFBC51E22D27A94006B83DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFBC4FE22D27A92006B83DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFBC50522D27A92006B83DF;
+			remoteInfo = ImageRegonizer;
+		};
+		CEFBC52922D27A94006B83DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFBC4FE22D27A92006B83DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFBC50522D27A92006B83DF;
+			remoteInfo = ImageRegonizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEFBC50622D27A92006B83DF /* ImageRegonizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRegonizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFBC50922D27A92006B83DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFBC50B22D27A92006B83DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFBC50E22D27A92006B83DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFBC51122D27A92006B83DF /* ImageRegonizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageRegonizer.xcdatamodel; sourceTree = "<group>"; };
+		CEFBC51322D27A93006B83DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFBC51622D27A93006B83DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFBC51822D27A93006B83DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFBC51D22D27A93006B83DF /* ImageRegonizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRegonizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFBC52122D27A94006B83DF /* ImageRegonizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRegonizerTests.swift; sourceTree = "<group>"; };
+		CEFBC52322D27A94006B83DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFBC52822D27A94006B83DF /* ImageRegonizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRegonizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFBC52C22D27A94006B83DF /* ImageRegonizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRegonizerUITests.swift; sourceTree = "<group>"; };
+		CEFBC52E22D27A94006B83DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFBC50322D27A92006B83DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBC51A22D27A93006B83DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBC52522D27A94006B83DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFBC4FD22D27A92006B83DF = {
+			isa = PBXGroup;
+			children = (
+				CEFBC50822D27A92006B83DF /* ImageRegonizer */,
+				CEFBC52022D27A94006B83DF /* ImageRegonizerTests */,
+				CEFBC52B22D27A94006B83DF /* ImageRegonizerUITests */,
+				CEFBC50722D27A92006B83DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFBC50722D27A92006B83DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBC50622D27A92006B83DF /* ImageRegonizer.app */,
+				CEFBC51D22D27A93006B83DF /* ImageRegonizerTests.xctest */,
+				CEFBC52822D27A94006B83DF /* ImageRegonizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFBC50822D27A92006B83DF /* ImageRegonizer */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBC50922D27A92006B83DF /* AppDelegate.swift */,
+				CEFBC50B22D27A92006B83DF /* ViewController.swift */,
+				CEFBC50D22D27A92006B83DF /* Main.storyboard */,
+				CEFBC51322D27A93006B83DF /* Assets.xcassets */,
+				CEFBC51522D27A93006B83DF /* LaunchScreen.storyboard */,
+				CEFBC51822D27A93006B83DF /* Info.plist */,
+				CEFBC51022D27A92006B83DF /* ImageRegonizer.xcdatamodeld */,
+			);
+			path = ImageRegonizer;
+			sourceTree = "<group>";
+		};
+		CEFBC52022D27A94006B83DF /* ImageRegonizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBC52122D27A94006B83DF /* ImageRegonizerTests.swift */,
+				CEFBC52322D27A94006B83DF /* Info.plist */,
+			);
+			path = ImageRegonizerTests;
+			sourceTree = "<group>";
+		};
+		CEFBC52B22D27A94006B83DF /* ImageRegonizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBC52C22D27A94006B83DF /* ImageRegonizerUITests.swift */,
+				CEFBC52E22D27A94006B83DF /* Info.plist */,
+			);
+			path = ImageRegonizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFBC50522D27A92006B83DF /* ImageRegonizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFBC53122D27A94006B83DF /* Build configuration list for PBXNativeTarget "ImageRegonizer" */;
+			buildPhases = (
+				CEFBC50222D27A92006B83DF /* Sources */,
+				CEFBC50322D27A92006B83DF /* Frameworks */,
+				CEFBC50422D27A92006B83DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageRegonizer;
+			productName = ImageRegonizer;
+			productReference = CEFBC50622D27A92006B83DF /* ImageRegonizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFBC51C22D27A93006B83DF /* ImageRegonizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFBC53422D27A94006B83DF /* Build configuration list for PBXNativeTarget "ImageRegonizerTests" */;
+			buildPhases = (
+				CEFBC51922D27A93006B83DF /* Sources */,
+				CEFBC51A22D27A93006B83DF /* Frameworks */,
+				CEFBC51B22D27A93006B83DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFBC51F22D27A94006B83DF /* PBXTargetDependency */,
+			);
+			name = ImageRegonizerTests;
+			productName = ImageRegonizerTests;
+			productReference = CEFBC51D22D27A93006B83DF /* ImageRegonizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFBC52722D27A94006B83DF /* ImageRegonizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFBC53722D27A94006B83DF /* Build configuration list for PBXNativeTarget "ImageRegonizerUITests" */;
+			buildPhases = (
+				CEFBC52422D27A94006B83DF /* Sources */,
+				CEFBC52522D27A94006B83DF /* Frameworks */,
+				CEFBC52622D27A94006B83DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFBC52A22D27A94006B83DF /* PBXTargetDependency */,
+			);
+			name = ImageRegonizerUITests;
+			productName = ImageRegonizerUITests;
+			productReference = CEFBC52822D27A94006B83DF /* ImageRegonizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFBC4FE22D27A92006B83DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Wilmer sinchi";
+				TargetAttributes = {
+					CEFBC50522D27A92006B83DF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CEFBC51C22D27A93006B83DF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CEFBC50522D27A92006B83DF;
+					};
+					CEFBC52722D27A94006B83DF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CEFBC50522D27A92006B83DF;
+					};
+				};
+			};
+			buildConfigurationList = CEFBC50122D27A92006B83DF /* Build configuration list for PBXProject "ImageRegonizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFBC4FD22D27A92006B83DF;
+			productRefGroup = CEFBC50722D27A92006B83DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFBC50522D27A92006B83DF /* ImageRegonizer */,
+				CEFBC51C22D27A93006B83DF /* ImageRegonizerTests */,
+				CEFBC52722D27A94006B83DF /* ImageRegonizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFBC50422D27A92006B83DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFBC51722D27A93006B83DF /* LaunchScreen.storyboard in Resources */,
+				CEFBC51422D27A93006B83DF /* Assets.xcassets in Resources */,
+				CEFBC50F22D27A92006B83DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBC51B22D27A93006B83DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBC52622D27A94006B83DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFBC50222D27A92006B83DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFBC50C22D27A92006B83DF /* ViewController.swift in Sources */,
+				CEFBC51222D27A92006B83DF /* ImageRegonizer.xcdatamodeld in Sources */,
+				CEFBC50A22D27A92006B83DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBC51922D27A93006B83DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFBC52222D27A94006B83DF /* ImageRegonizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFBC52422D27A94006B83DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFBC52D22D27A94006B83DF /* ImageRegonizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFBC51F22D27A94006B83DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFBC50522D27A92006B83DF /* ImageRegonizer */;
+			targetProxy = CEFBC51E22D27A94006B83DF /* PBXContainerItemProxy */;
+		};
+		CEFBC52A22D27A94006B83DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFBC50522D27A92006B83DF /* ImageRegonizer */;
+			targetProxy = CEFBC52922D27A94006B83DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFBC50D22D27A92006B83DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFBC50E22D27A92006B83DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFBC51522D27A93006B83DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFBC51622D27A93006B83DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFBC52F22D27A94006B83DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFBC53022D27A94006B83DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFBC53222D27A94006B83DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageRegonizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttt.algoandcoding.ImageRegonizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFBC53322D27A94006B83DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageRegonizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttt.algoandcoding.ImageRegonizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFBC53522D27A94006B83DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageRegonizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttt.algoandcoding.ImageRegonizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageRegonizer.app/ImageRegonizer";
+			};
+			name = Debug;
+		};
+		CEFBC53622D27A94006B83DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageRegonizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttt.algoandcoding.ImageRegonizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageRegonizer.app/ImageRegonizer";
+			};
+			name = Release;
+		};
+		CEFBC53822D27A94006B83DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageRegonizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttt.algoandcoding.ImageRegonizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageRegonizer;
+			};
+			name = Debug;
+		};
+		CEFBC53922D27A94006B83DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageRegonizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttt.algoandcoding.ImageRegonizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageRegonizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFBC50122D27A92006B83DF /* Build configuration list for PBXProject "ImageRegonizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFBC52F22D27A94006B83DF /* Debug */,
+				CEFBC53022D27A94006B83DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFBC53122D27A94006B83DF /* Build configuration list for PBXNativeTarget "ImageRegonizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFBC53222D27A94006B83DF /* Debug */,
+				CEFBC53322D27A94006B83DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFBC53422D27A94006B83DF /* Build configuration list for PBXNativeTarget "ImageRegonizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFBC53522D27A94006B83DF /* Debug */,
+				CEFBC53622D27A94006B83DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFBC53722D27A94006B83DF /* Build configuration list for PBXNativeTarget "ImageRegonizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFBC53822D27A94006B83DF /* Debug */,
+				CEFBC53922D27A94006B83DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEFBC51022D27A92006B83DF /* ImageRegonizer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEFBC51122D27A92006B83DF /* ImageRegonizer.xcdatamodel */,
+			);
+			currentVersion = CEFBC51122D27A92006B83DF /* ImageRegonizer.xcdatamodel */;
+			path = ImageRegonizer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEFBC4FE22D27A92006B83DF /* Project object */;
+}
