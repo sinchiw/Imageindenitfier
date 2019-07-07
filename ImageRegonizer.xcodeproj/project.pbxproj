@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CECB969922D282BF00FDDAEB /* Bagel&DoughnutsClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CECB969822D282BF00FDDAEB /* Bagel&DoughnutsClassifier.mlmodel */; };
 		CEFBC50A22D27A92006B83DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC50922D27A92006B83DF /* AppDelegate.swift */; };
 		CEFBC50C22D27A92006B83DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBC50B22D27A92006B83DF /* ViewController.swift */; };
 		CEFBC50F22D27A92006B83DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFBC50D22D27A92006B83DF /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CECB969822D282BF00FDDAEB /* Bagel&DoughnutsClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Bagel&DoughnutsClassifier.mlmodel"; sourceTree = "<group>"; };
 		CEFBC50622D27A92006B83DF /* ImageRegonizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRegonizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFBC50922D27A92006B83DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFBC50B22D27A92006B83DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				CEFBC50922D27A92006B83DF /* AppDelegate.swift */,
 				CEFBC50B22D27A92006B83DF /* ViewController.swift */,
+				CECB969822D282BF00FDDAEB /* Bagel&DoughnutsClassifier.mlmodel */,
 				CEFBC50D22D27A92006B83DF /* Main.storyboard */,
 				CEFBC51322D27A93006B83DF /* Assets.xcassets */,
 				CEFBC51522D27A93006B83DF /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECB969922D282BF00FDDAEB /* Bagel&DoughnutsClassifier.mlmodel in Sources */,
 				CEFBC50C22D27A92006B83DF /* ViewController.swift in Sources */,
 				CEFBC51222D27A92006B83DF /* ImageRegonizer.xcdatamodeld in Sources */,
 				CEFBC50A22D27A92006B83DF /* AppDelegate.swift in Sources */,
@@ -437,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6CQ853DP7;
 				INFOPLIST_FILE = ImageRegonizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6CQ853DP7;
 				INFOPLIST_FILE = ImageRegonizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
